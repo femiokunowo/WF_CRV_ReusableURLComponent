@@ -1,0 +1,12 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId" controller="CRV_TTMUtility" >
+	<!-- add handler event   -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" /> 
+    
+    <!-- set the component attribute(s)   -->
+    <aura:attribute name="UrlValue" type="String" />
+    <aura:attribute name="TransactionID" type="String" default="Card Replacement" />  
+    
+    <!--Reference the custom URL component and pass value to -->
+    <c:customURLComponent targetUrlValue="{!v.UrlValue}"/>
+    
+</aura:component>

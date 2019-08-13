@@ -1,0 +1,7 @@
+<aura:component >
+     <!-- set the component attribute   -->
+    <aura:attribute name="targetUrlValue" type="String"/>
+        
+    <!-- URL to the service workflow -->
+    <lightning:formattedUrl aura:id="targetUrl" value="{!v.targetUrlValue}" />
+</aura:component>
