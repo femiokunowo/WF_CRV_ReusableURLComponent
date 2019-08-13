@@ -5,3 +5,4 @@ The CardReplacement.cmp is parent component in this case leveraging the custom U
 in CRV_TTMUtility.cls class which gets the value of the target URL from a custom object. The returned URL value is then passed to the custom URL 
 component.
 The target URL is then automatically launched in a browser.
+The attached PDF shosw how all these tie together
